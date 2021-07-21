@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="RepositoryInterfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpArch.Domain">
+      <HintPath>..\Packages\SharpArch.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
