@@ -5,13 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commons\" />
-    <Folder Include="Contracts\" />
     <Folder Include="Dtos\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpArch.Domain">
+      <HintPath>..\Packages\SharpArch.Domain.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
