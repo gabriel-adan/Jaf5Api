@@ -9,8 +9,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using WebApi.Models;
-using Logic;
 using Domain;
+using Logic;
 using Logic.Contracts;
 
 namespace WebApi.Controllers
